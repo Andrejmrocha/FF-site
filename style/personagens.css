@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+}
+
+.titulo {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #f9f9f9;
+    margin: .5em 1em;
+}
+
+section {
+    width: 100vw;
+    border: 1px solid red;
+}
+
+.lista-personagem {
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.personagem {
+    width: 20%;
+    background-color: #2320e0;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

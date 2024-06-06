@@ -3,24 +3,27 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 body {
-  background: #272727;
+  background: #00040D;
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 nav {
-  margin: 12px;
+  position: sticky;
+  top: 0;
   background-color:#f9f9f9;
   padding: 6px;
-  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   .menuItems {
     list-style: none;
     display: flex;
