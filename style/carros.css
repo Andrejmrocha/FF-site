@@ -65,4 +65,5 @@ main {
 
 .dono-carro {
     cursor: pointer;
+    text-decoration: none;
 }
